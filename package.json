@@ -1,0 +1,25 @@
+{
+  "name": "doryo",
+  "version": "1.0.0",
+  "description": "Chrome extension to contact colleagues",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/null-sys/doryo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/null-sys/doryo/issues"
+  },
+  "homepage": "https://github.com/null-sys/doryo#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
