@@ -6,7 +6,7 @@ const cases = document.querySelector(".cases");
 const recovered = document.querySelector(".recovered");
 const deaths = document.querySelector(".deaths");
 const results = document.querySelector(".result-container");
-results.style.display = "none";
+//results.style.display = "none";
 loading.style.display = "none";
 errors.textContent = "";
 // grab the form
