@@ -6,14 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+      integrity="undefined"
+      crossorigin="anonymous"
+    />
   </head>
   <body class="container">
     <form class="form-data" autocomplete="on">
-      <div class="enter-country">
-        Enter a country name to get more information:
-      </div>
+      <div class="enter-country">Enter Shomei:</div>
       <div>
-        <input type="text" class="country-name" />
+        <input type="text" placeholder="Enter username" class="country-name" />
       </div>
       <button class="search-btn">Search</button>
     </form>
@@ -22,12 +26,44 @@
       <div class="errors"></div>
       <div class="data"></div>
       <div class="result-container">
-        <p><strong>Total cases: </strong><span class="cases"></span></p>
-        <p>
-          <strong>Total recovered: </strong> <span class="recovered"></span>
-        </p>
-        <p><strong>Total deaths: </strong><span class="deaths"></span></p>
-      </div>
+        <div class="modal-header">
+          <h1 class="logo">
+            User Name
+            <span class="version">(1.0.0)</span>
+          </h1>
+        </div>
+        <div class="modal-content">
+          <p>Easily Access Traversy Media content</p>
+        </div>
+        <div class="modal-icons">
+          <div class="flex-container">
+            <div class="flex">
+              <a href="https://www.traversymedia.com" target="_blank">
+                <i class="fa fa-globe" style="color:darksalmon "></i>
+              </a>
+            </div>
+            <div class="flex">
+              <a href="https://www.youtube.com/traversymedia" target="_blank">
+                <i class="fa fa-youtube" style="color:darksalmon "></i>
+              </a>
+            </div>
+            <div class="flex">
+              <a href="https://www.twitter.com/traversymedia" target="_blank">
+                <i class="fa fa-twitter" style="color:darksalmon "></i>
+              </a>
+            </div>
+            <div class="flex">
+              <a href="https://www.facebook.com/traversymedia" target="_blank">
+                <i class="fa fa-facebook" style="color:darksalmon "></i>
+              </a>
+            </div>
+            <div class="flex">
+              <a href="https://www.github.com/bradtraversy" target="_blank">
+                <i class="fa fa-github" style="color:darksalmon "></i>
+              </a>
+            </div>
+          </div>
+        </div>
     </div>
 
     <script src="main.js"></script>
