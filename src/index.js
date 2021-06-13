@@ -35,8 +35,9 @@ const searchForCountry = async countryName => {
 // declare a function to handle form submission
 const handleSubmit = async e => {
     e.preventDefault();
-    searchForCountry(country.value);
-    console.log(country.value);
+    loading.style.display = "none";
+    //searchForCountry(country.value);
+    // console.log(country.value);
 };
 
 form.addEventListener("submit", e => handleSubmit(e));
